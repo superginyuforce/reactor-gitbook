@@ -4,7 +4,7 @@ description: Overview of linear brushstrokes
 
 # Lines
 
-![linear stroke with triangular brush](../../.gitbook/assets/line-example.png)
+![Linear brushstrokes with rotating triangular brush](../../.gitbook/assets/c7e883.png)
 
 ### Overview
 

@@ -4,7 +4,7 @@ description: Overview of spiral brushstrokes
 
 # Spirals
 
-![spiral stroke with triangular brush](../../.gitbook/assets/spiral-example.png)
+![Spiral brushstrokes drawn with rotating triangular brush](../../.gitbook/assets/e3df00.png)
 
 ### Overview
 

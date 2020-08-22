@@ -1,6 +1,6 @@
 # Density
 
-![](../../.gitbook/assets/density.png)
+![](../../../.gitbook/assets/density.png)
 
 ### Definition
 

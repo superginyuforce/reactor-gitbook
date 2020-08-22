@@ -4,7 +4,7 @@ description: Overview of ring brushstrokes
 
 # Rings
 
-![ring stroke with triangular brush](../../.gitbook/assets/ring-example.png)
+![Ring brushstrokes with rotating triangular brush](../../.gitbook/assets/ring.png)
 
 ### Overview‌ <a id="overview"></a>
 
