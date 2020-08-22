@@ -1,5 +1,5 @@
 ---
-description: Brush Density Property
+description: Number of points per unit length
 ---
 
 # Density

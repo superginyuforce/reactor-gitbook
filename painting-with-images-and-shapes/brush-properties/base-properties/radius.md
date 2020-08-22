@@ -1,5 +1,5 @@
 ---
-description: Brush Radius Property
+description: Size of brush relative to canvas
 ---
 
 # Radius

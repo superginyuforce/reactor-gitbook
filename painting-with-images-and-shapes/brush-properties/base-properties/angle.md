@@ -1,5 +1,5 @@
 ---
-description: Brush Angle Property
+description: Rotation around center of the brush tip
 ---
 
 # Angle
