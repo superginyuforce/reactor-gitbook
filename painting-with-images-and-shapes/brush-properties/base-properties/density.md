@@ -6,15 +6,15 @@ description: Brush Density Property
 
 As density increases, so does the number of points between the start and end points of a brushstroke. Lines, rings, and other paths are calibrated so that a density of `1.0` results in each point being spaced out by an amount equal to the brush's radius.
 
-![](../../../.gitbook/assets/density.png)
-
 ### Datatype
 
 * **Units**: Percentage of brush radius
 * **Range**: `(0, inf)`
-* **Type**: `float` 
+* **Type**: `float`
 
-### Example
+![](../../../.gitbook/assets/density.png)
+
+### Usage Example
 
 ```javascript
 const brush = new Brush()
