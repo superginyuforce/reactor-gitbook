@@ -1,2 +1,2 @@
-# Base Properties
+# Core Brush Properties
 

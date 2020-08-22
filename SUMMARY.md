@@ -6,7 +6,7 @@
 
 * [Paint API Overview](painting-with-images-and-shapes/overview.md)
 * [Brushes](painting-with-images-and-shapes/brush-properties/README.md)
-  * [Base Properties](painting-with-images-and-shapes/brush-properties/base-properties/README.md)
+  * [Core Brush Properties](painting-with-images-and-shapes/brush-properties/base-properties/README.md)
     * [Density](painting-with-images-and-shapes/brush-properties/base-properties/density.md)
     * [Radius](painting-with-images-and-shapes/brush-properties/base-properties/radius.md)
     * [Angle](painting-with-images-and-shapes/brush-properties/base-properties/angle.md)
