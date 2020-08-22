@@ -34,7 +34,7 @@
       * [Alpha](painting-with-images-and-shapes/brush-properties/polygon-brushes/stroke/alpha.md)
       * [Blending](painting-with-images-and-shapes/brush-properties/polygon-brushes/stroke/blending.md)
   * [Image Brushes](painting-with-images-and-shapes/brush-properties/image-brushes.md)
-* [Brushstrokes](painting-with-images-and-shapes/brushstrokes/README.md)
+* [Strokes](painting-with-images-and-shapes/brushstrokes/README.md)
   * [Lines](painting-with-images-and-shapes/brushstrokes/lines.md)
   * [Rings](painting-with-images-and-shapes/brushstrokes/rings.md)
   * [Spirals](painting-with-images-and-shapes/brushstrokes/spirals.md)
