@@ -1,5 +1,5 @@
 ---
-description: Number of points per unit length
+description: Number of points where brush is drawn between the start and end of a path
 ---
 
 # Density

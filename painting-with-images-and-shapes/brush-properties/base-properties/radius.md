@@ -1,5 +1,5 @@
 ---
-description: Size of brush relative to canvas
+description: Size of brush relative to a layer's canvas
 ---
 
 # Radius
