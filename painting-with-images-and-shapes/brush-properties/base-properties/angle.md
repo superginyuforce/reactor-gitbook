@@ -1,5 +1,5 @@
 ---
-description: Rotation of the brush shape or image around its center
+description: The angle by which the brush shape or image is rotated around its center
 ---
 
 # Angle

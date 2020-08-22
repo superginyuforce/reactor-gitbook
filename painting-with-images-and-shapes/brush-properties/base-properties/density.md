@@ -1,5 +1,7 @@
 ---
-description: Number of points between the start and end of a path where a brush is drawn
+description: >-
+  The degree to which points between the start and end of a path are sparse or
+  densely packed
 ---
 
 # Density
