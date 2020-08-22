@@ -4,8 +4,8 @@
 
 ## Painting With Images & Shapes
 
-* [API Overview](painting-with-images-and-shapes/overview.md)
-* [Brushstroke Types](painting-with-images-and-shapes/brushstrokes/README.md)
+* [Brush API Overview](painting-with-images-and-shapes/overview.md)
+* [Types of Brushstrokes](painting-with-images-and-shapes/brushstrokes/README.md)
   * [Lines](painting-with-images-and-shapes/brushstrokes/lines.md)
   * [Rings](painting-with-images-and-shapes/brushstrokes/rings.md)
   * [Spirals](painting-with-images-and-shapes/brushstrokes/spirals.md)
