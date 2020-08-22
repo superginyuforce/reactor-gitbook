@@ -1,4 +1,4 @@
-# Painting Overview
+# Overview
 
 Reactor contains a powerful library for using shapes and images as brushes. A wide array of brush properties can be controlled programmatically, using combinations of constant values, random variables, and parametric functions. At a basic level, the process of creating and using a brush looks like this:
 

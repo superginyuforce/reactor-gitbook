@@ -1,0 +1,2 @@
+# Polygon Brush Properties
+
