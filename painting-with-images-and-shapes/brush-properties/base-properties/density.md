@@ -8,15 +8,13 @@ As density increases, so does the number of points between the start and end poi
 
 ![](../../../.gitbook/assets/density.png)
 
-### Units
+### Datatype
 
-Percentage of brush radius
+* **Units**: Percentage of brush radius
+* **Range**: `(0, inf)`
+* **Type**: `float` 
 
-### Type
-
-`float`
-
-### Examples
+### Example
 
 ```javascript
 const brush = new Brush()
@@ -24,7 +22,7 @@ const brush = new Brush()
 // set to constant value
 brush.density = 1.0
 
-// set to random value in range
+// ...or set to random value in range
 brush.density = {min: 0.5, max: 1.5}
 ```
 
