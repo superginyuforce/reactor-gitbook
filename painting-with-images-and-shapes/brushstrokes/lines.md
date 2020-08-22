@@ -4,9 +4,7 @@ description: Overview of linear brushstrokes
 
 # Lines
 
-
-
-![linear brush stroke with triangle brush](../../.gitbook/assets/line-example.png)
+![linear stroke with triangular brush](../../.gitbook/assets/line-example.png)
 
 ### Overview
 
@@ -14,6 +12,9 @@ description: Overview of linear brushstrokes
 * Call Convention: `brush.paintLine(layer, start, end)`
 
 ### Parameters
+
+* **start** - starting point of line segment
+* **end** - end point of line segment
 
 | Name | Type/s | Example/s |
 | :--- | :--- | :--- |
