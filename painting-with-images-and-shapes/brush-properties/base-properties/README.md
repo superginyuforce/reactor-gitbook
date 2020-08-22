@@ -6,7 +6,7 @@ Each brush has a set of core parameters that affect the way it is drawn. These v
 It is possible to "reset" these values to their initial state by calling the `reset` method or by re-seeding the brush's RNG via its `reseed` method. 
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Other non-core properties are computed for each brush stroke, _not_ upon brush initialization. Such properties include things like shape scaling, scattering, etc. See: [Polygon Brushes](../polygon-brushes/)
 {% endhint %}
 
