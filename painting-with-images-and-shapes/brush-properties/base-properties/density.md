@@ -1,5 +1,5 @@
 ---
-description: Number of points where brush is drawn between the start and end of a path
+description: Number of points between the start and end of a path where a brush is drawn
 ---
 
 # Density
