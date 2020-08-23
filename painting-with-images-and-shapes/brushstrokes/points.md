@@ -4,6 +4,8 @@ description: Overview of point brushstrokes
 
 # Points
 
+Paint the brush at a single location.
+
 ![](../../.gitbook/assets/1a773a.png)
 
 ### Overview‌ <a id="overview"></a>

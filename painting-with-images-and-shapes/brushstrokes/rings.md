@@ -4,7 +4,7 @@ description: Overview of ring brushstrokes
 
 # Rings
 
-Draw a ring, where the points on the ring are evenly spaced on the circumference, regardless of brush density.
+Draw a ring with evenly spaced points along the circumference, regardless of brush density.
 
 ![Rings with rotating triangular brush](../../.gitbook/assets/ring.png)
 
