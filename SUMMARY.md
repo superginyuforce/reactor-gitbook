@@ -4,7 +4,7 @@
 
 ## Paint API <a id="painting-with-images-and-shapes"></a>
 
-* [Paint Overview](painting-with-images-and-shapes/overview.md)
+* [Overview](painting-with-images-and-shapes/overview.md)
 * [Brushes](painting-with-images-and-shapes/brush-properties/README.md)
   * [Brush Initialization](painting-with-images-and-shapes/brush-properties/brush-initialization.md)
   * [Core Properties](painting-with-images-and-shapes/brush-properties/base-properties/README.md)
