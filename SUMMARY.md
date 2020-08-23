@@ -4,9 +4,10 @@
 
 ## Paint API <a id="painting-with-images-and-shapes"></a>
 
-* [Paint API Overview](painting-with-images-and-shapes/overview.md)
-* [Brushes](painting-with-images-and-shapes/brush-properties/README.md)
-  * [Core Brush Properties](painting-with-images-and-shapes/brush-properties/base-properties/README.md)
+* [Paint Overview](painting-with-images-and-shapes/overview.md)
+* [Brush Properties](painting-with-images-and-shapes/brush-properties/README.md)
+  * [Brush Initialization](painting-with-images-and-shapes/brush-properties/brush-initialization.md)
+  * [Core Properties](painting-with-images-and-shapes/brush-properties/base-properties/README.md)
     * [Density](painting-with-images-and-shapes/brush-properties/base-properties/density.md)
     * [Radius](painting-with-images-and-shapes/brush-properties/base-properties/radius.md)
     * [Angle](painting-with-images-and-shapes/brush-properties/base-properties/angle.md)
@@ -34,10 +35,10 @@
       * [Alpha](painting-with-images-and-shapes/brush-properties/polygon-brushes/stroke/alpha.md)
       * [Blending](painting-with-images-and-shapes/brush-properties/polygon-brushes/stroke/blending.md)
   * [Image Brushes](painting-with-images-and-shapes/brush-properties/image-brushes.md)
-* [Strokes](painting-with-images-and-shapes/brushstrokes/README.md)
+* [Painting](painting-with-images-and-shapes/brushstrokes/README.md)
   * [Lines](painting-with-images-and-shapes/brushstrokes/lines.md)
   * [Rings](painting-with-images-and-shapes/brushstrokes/rings.md)
   * [Spirals](painting-with-images-and-shapes/brushstrokes/spirals.md)
   * [Points](painting-with-images-and-shapes/brushstrokes/points.md)
-  * [Arbitrary Paths](painting-with-images-and-shapes/brushstrokes/arbitrary-paths.md)
+  * [Linear Splines](painting-with-images-and-shapes/brushstrokes/arbitrary-paths.md)
 

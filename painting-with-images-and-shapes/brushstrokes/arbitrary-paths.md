@@ -1,19 +1,21 @@
 ---
-description: Overview of arbitrary path brushstrokes
+description: Overview of linear splines
 ---
 
-# Arbitrary Paths
+# Linear Splines
+
+![several sequences of linear splines drawn with triangular brush](../../.gitbook/assets/fb2d43.png)
 
 ### Overview‌ <a id="overview"></a>
 
-* **Type Name**: `"path"`
-* **Call Convention**: `brush.paintPath(layer, path)`‌
+* **Type Name**: `"linear-splines"`
+* **Call Convention**: `brush.paintLinearSplines(layer, points)`‌
 
 ### ‌Parameters‌‌ <a id="parameters"></a>
 
-1. **path** - sequence of points to stroke
+1. **points** - sequence of points to stroke
 
 | Name | Type/s | Example/s |
 | :--- | :--- | :--- |
-| path | `Array<Vector|Array|Object>` | `[new Vector(x, y)]`, `[[x, y]]`, `[{x, y}]` |
+| points | `Array<Vector|Array|Object>` | `[new Vector(x, y)]`, `[[x, y]]`, `[{x, y}]` |
 
