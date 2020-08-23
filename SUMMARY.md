@@ -36,9 +36,9 @@
       * [Blending](painting-with-images-and-shapes/brush-properties/polygon-brushes/stroke/blending.md)
   * [Image Brushes](painting-with-images-and-shapes/brush-properties/image-brushes.md)
 * [Painting](painting-with-images-and-shapes/brushstrokes/README.md)
+  * [Points](painting-with-images-and-shapes/brushstrokes/points.md)
   * [Lines](painting-with-images-and-shapes/brushstrokes/lines.md)
+  * [Linear Splines](painting-with-images-and-shapes/brushstrokes/arbitrary-paths.md)
   * [Rings](painting-with-images-and-shapes/brushstrokes/rings.md)
   * [Spirals](painting-with-images-and-shapes/brushstrokes/spirals.md)
-  * [Points](painting-with-images-and-shapes/brushstrokes/points.md)
-  * [Linear Splines](painting-with-images-and-shapes/brushstrokes/arbitrary-paths.md)
 

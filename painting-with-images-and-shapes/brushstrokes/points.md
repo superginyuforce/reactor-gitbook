@@ -4,6 +4,8 @@ description: Overview of point brushstrokes
 
 # Points
 
+![](../../.gitbook/assets/1a773a.png)
+
 ### Overview‌ <a id="overview"></a>
 
 * **Type Name**: `"point"`

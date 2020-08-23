@@ -1,10 +1,12 @@
 ---
-description: Overview of linear brushstrokes
+description: Overview of lines
 ---
 
 # Lines
 
-![Linear brushstrokes with rotating triangular brush](../../.gitbook/assets/c7e883.png)
+Stroke a straight line between start and end points.
+
+![Lines drawn with rotating triangular brush](../../.gitbook/assets/c7e883.png)
 
 ### Overview
 

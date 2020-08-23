@@ -4,7 +4,9 @@ description: Overview of linear splines
 
 # Linear Splines
 
-![several sequences of linear splines drawn with triangular brush](../../.gitbook/assets/fb2d43.png)
+Connect a sequence of points using lines, like a line graph.
+
+![zigzagging linear splines with rotating triangular brushes with various radii](../../.gitbook/assets/93c6ee.png)
 
 ### Overview‌ <a id="overview"></a>
 
@@ -14,6 +16,7 @@ description: Overview of linear splines
 ### ‌Parameters‌‌ <a id="parameters"></a>
 
 1. **points** - sequence of points to stroke
+2. **closed** - if `true`, the last point will be connected to the first point
 
 | Name | Type/s | Example/s |
 | :--- | :--- | :--- |
