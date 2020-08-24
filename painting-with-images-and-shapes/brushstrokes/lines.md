@@ -1,17 +1,16 @@
 ---
-description: Overview of lines
+description: Painting individual line segments
 ---
 
-# Lines
+# Line Segments
 
 Stroke a straight line between start and end points.
 
 ![Lines drawn with rotating triangular brush](../../.gitbook/assets/c7e883.png)
 
-### Overview
+### Brush Method
 
-* Type Name: `"line"`
-* Call Convention: `brush.paintLine(layer, start, end)`
+**`paintLine(layer, start, end)`**
 
 ### Parameters
 
@@ -22,4 +21,17 @@ Stroke a straight line between start and end points.
 | :--- | :--- | :--- |
 | start | `Vector`, `Array`, `Object` | `new Vector(x, y)`, `[x, y]`, `{x, y}` |
 | end | `Vector`, `Array`, `Object` | `new Vector(x, y)`, `[x, y]`, `{x, y}` |
+
+### Example
+
+#### Paint a Single Line Segment
+
+```javascript
+const start = {x: 10, y: 10}
+const end = {x: 200, y: 50}
+
+brush.paintLine(layer, start, end)
+```
+
+
 

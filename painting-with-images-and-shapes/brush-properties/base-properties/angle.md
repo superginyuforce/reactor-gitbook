@@ -23,6 +23,6 @@ const brush = new Brush()
 brush.angle = 2/3 * Math.PI
 
 // ...or set to random value in range
-brush.radius = {min: -1/2 * Math.PI, max: 1/2 * Math.PI}
+brush.angle = {min: -1/2 * Math.PI, max: 1/2 * Math.PI}
 ```
 

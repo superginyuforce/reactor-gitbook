@@ -1,17 +1,16 @@
 ---
-description: Overview of point brushstrokes
+description: Painting individual points
 ---
 
-# Points
+# Single Points
 
-Paint the brush at a single location.
+Paint at a specific location.
 
-![](../../.gitbook/assets/1a773a.png)
+![Individually painted points, using a scaling, rotating multicolored brush](../../.gitbook/assets/1a773a.png)
 
-### Overview‌ <a id="overview"></a>
+### Brush Method <a id="overview"></a>
 
-* **Type Name**: `"point"`
-* **Call Convention**: `brush.paintPoint(layer, point)`
+**`paintPoint(layer, point)`**
 
 ### ‌Parameters‌
 
@@ -20,4 +19,14 @@ Paint the brush at a single location.
 | Name | Type/s | Example/s |
 | :--- | :--- | :--- |
 | point | `Vector`, `Array`, `Object` | `new Vector(x, y)`, `[x, y]`, `{x, y}` |
+
+### Example
+
+#### Paint One Point
+
+```javascript
+const point = {x: 100, y: 250}
+
+brush.paintPoint(layer, point)
+```
 

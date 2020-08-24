@@ -10,6 +10,10 @@ description: >-
 
 As density increases, so does the number of points between the start and end points of a brushstroke. Lines, rings, and other paths are calibrated so that a density of `1.0` results in each point being spaced out by an amount equal to the brush's radius.
 
+{% hint style="info" %}
+You can increase the density far beyond `1.0`. Try a larger value, like`10,`and behold!
+{% endhint %}
+
 ### Datatype
 
 * **Units**: Percentage of brush radius
