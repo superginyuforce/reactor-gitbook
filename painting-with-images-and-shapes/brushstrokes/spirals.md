@@ -24,5 +24,17 @@ Draw a spiral, according to its desired position, radius, and coils, i.e. number
 | center | `Vector`, `Array`, `Object` | `new Vector(x, y)`, `[x, y]`, `{x, y}` |
 | radius | `float` | `0.5  (% layer width)` |
 | coils | `float` | `2.5` |
-| angle | `float` | `2/3 * Math.PI  (radians)` |
+| angle | `float?` | `2/3 * Math.PI  (radians)` |
+
+### Example
+
+#### Paint a Spiral Centered on Layer
+
+```javascript
+const center = layer.center
+const radius = 0.5  // 50% canvas radius
+const coils = 3.5   // 3.5 rotations of the spiral
+
+brush.paintSpiral(layer, center, radius, coils)
+```
 
