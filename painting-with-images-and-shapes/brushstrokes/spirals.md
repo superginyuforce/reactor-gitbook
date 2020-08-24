@@ -8,10 +8,9 @@ Draw a spiral, according to its desired position, radius, and coils, i.e. number
 
 ![Spirals drawn with rotating triangular brush](../../.gitbook/assets/e3df00.png)
 
-### Overview
+### Brush Method
 
-* **Type Name**: `"spiral"`
-* **Call Convention**: `brush.paintSpiral(layer, center, radius, angle, coils)`
+**`paintSpiral(layer, center, radius, coils, angle?)`**
 
 ### Parameters
 

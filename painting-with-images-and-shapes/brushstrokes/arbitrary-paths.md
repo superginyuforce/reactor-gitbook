@@ -10,7 +10,7 @@ Connect a sequence of points using lines, like a line graph.
 
 ### Brush Method <a id="overview"></a>
 
-**`paintLinearSplines(layer, points)`**‌
+**`paintLinearSplines(layer, points, closed?)`**‌
 
 ### ‌Parameters‌‌ <a id="parameters"></a>
 
