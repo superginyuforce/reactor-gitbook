@@ -8,10 +8,9 @@ Draw a ring with evenly spaced points along the circumference, regardless of bru
 
 ![Rings with rotating triangular brush](../../.gitbook/assets/ring.png)
 
-### Overview‌ <a id="overview"></a>
+### Brush Method <a id="overview"></a>
 
-* Type Name: `"ring"`
-* Call Convention: `brush.paintRing(layer, center, radius, angle)`
+**`paintRing(layer, center, radius, angle)`**
 
 ### Parameters <a id="parameters"></a>
 
@@ -23,7 +22,17 @@ Draw a ring with evenly spaced points along the circumference, regardless of bru
 | :--- | :--- | :--- |
 | center | `Vector`, `Array`, `Object` | `new Vector(x, y)`, `[x, y]`, `{x, y}` |
 | radius | `float` | `0.20  (% layer width)` |
-| angle | `float` | `2/3 * Math.PI  (radians)` |
+| angle | `float?` | `2/3 * Math.PI  (radians)`, `null` |
 
+### Example
 
+#### Paint a Ring Centered on Layer
+
+```javascript
+const center = layer.center
+const radius = 0.4  // 40% canvas radius
+const angle = 1/2 * Math.PI  // starting angle
+
+brush.paintRing(layer, center, radius, angle)
+```
 
