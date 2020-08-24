@@ -4,11 +4,13 @@ Reactor is a NodeJS framework for procedurally generating large-scale art and vi
 
 ![Sine Wave Lines with Triangular Brush](.gitbook/assets/sine-waves.png)
 
-### Examples
+### Gallery
 
-![Concentric Rings with Parametric Triangular Brush](.gitbook/assets/b0b320.png)
+![by @brian.fernande](.gitbook/assets/test.gif)
 
-![Concentric Rings with Parametric Triangular Brush](.gitbook/assets/ae0a63.png)
+![Concentric Rings with Triangular Brush](.gitbook/assets/b0b320.png)
+
+![Concentric Rings with Triangular Brush](.gitbook/assets/ae0a63.png)
 
 
 

@@ -6,7 +6,7 @@ description: Painting arrays of points
 
 Paint at each point in a list of points.
 
-![Points painted in batch, using a scaling, rotating multicolored brush](../../.gitbook/assets/b011fa.png)
+![array of points, painted in batch with a rotating &amp; scaling triangular brush](../../.gitbook/assets/5687ee.png)
 
 ### Brush Method <a id="overview"></a>
 

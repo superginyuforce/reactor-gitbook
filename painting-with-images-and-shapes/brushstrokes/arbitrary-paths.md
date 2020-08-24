@@ -6,7 +6,7 @@ description: Overview of linear splines
 
 Connect a sequence of points using lines, like a line graph.
 
-![zigzagging linear splines with rotating triangular brushes with various radii](../../.gitbook/assets/93c6ee.png)
+![several sequences of zigzagging splines, painted with a rotating triangular brush](../../.gitbook/assets/036e05.png)
 
 ### Brush Method <a id="overview"></a>
 

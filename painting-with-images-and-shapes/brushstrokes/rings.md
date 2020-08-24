@@ -6,7 +6,7 @@ description: Overview of ring brushstrokes
 
 Draw a ring with evenly spaced points along the circumference, regardless of brush density.
 
-![Rings with rotating triangular brush](../../.gitbook/assets/ring.png)
+![rings painted with a rotating triangular brush](../../.gitbook/assets/602381.png)
 
 ### Brush Method <a id="overview"></a>
 
