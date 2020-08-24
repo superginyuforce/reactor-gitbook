@@ -12,6 +12,10 @@ Paint at a specific location.
 
 **`paintPoint(layer, point)`**
 
+{% hint style="warning" %}
+If you have a large set of points, use `paintPoints` instead of calling `paintPoint` a million times! See: [Arrays of Points](arrays-of-points.md) 
+{% endhint %}
+
 ### ‌Parameters‌
 
 1. **point** - point at which the brushstroke is drawn
