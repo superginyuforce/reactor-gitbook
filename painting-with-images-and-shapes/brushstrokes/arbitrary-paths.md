@@ -31,6 +31,8 @@ const n = 4
 const dx = layer.width / n
 const points = []
 
+// create sequence of endpoints from left to right,
+// alternating from top to bottom....
 for (let i = 0; i < n + 1; i++) {
     points.push({
         x: i * dx, 
