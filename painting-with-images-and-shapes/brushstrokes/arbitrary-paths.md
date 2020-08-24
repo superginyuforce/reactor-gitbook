@@ -12,6 +12,10 @@ Connect a sequence of points using lines, like a line graph.
 
 **`paintLinearSplines(layer, points, closed?)`**‌
 
+{% hint style="info" %}
+While you can achieve something similar by manually painting a sequence of line segments, the linear splines method flattens the all splines into a _single_ array of points, which the brush strokes in a single pass.
+{% endhint %}
+
 ### ‌Parameters‌‌ <a id="parameters"></a>
 
 1. **points** - sequence of points to stroke
