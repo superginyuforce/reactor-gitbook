@@ -34,6 +34,7 @@
       * [Colors](painting-with-images-and-shapes/brush-properties/polygon-brushes/stroke/colors.md)
       * [Alpha](painting-with-images-and-shapes/brush-properties/polygon-brushes/stroke/alpha.md)
       * [Blending](painting-with-images-and-shapes/brush-properties/polygon-brushes/stroke/blending.md)
+  * [Line Brushes](painting-with-images-and-shapes/brush-properties/line-brushes.md)
   * [Image Brushes](painting-with-images-and-shapes/brush-properties/image-brushes.md)
 * [Paint API Reference](painting-with-images-and-shapes/brushstrokes/README.md)
   * [Single Points](painting-with-images-and-shapes/brushstrokes/points.md)
