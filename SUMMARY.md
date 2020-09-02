@@ -6,7 +6,6 @@
 
 * [Overview](painting-with-images-and-shapes/overview.md)
 * [Brushes](painting-with-images-and-shapes/brush-properties/README.md)
-  * [Ellipse Brush](painting-with-images-and-shapes/brush-properties/ellipse-brush.md)
   * [Brush Initialization](painting-with-images-and-shapes/brush-properties/brush-initialization.md)
   * [Core Properties](painting-with-images-and-shapes/brush-properties/base-properties/README.md)
     * [Density](painting-with-images-and-shapes/brush-properties/base-properties/density.md)
@@ -36,6 +35,7 @@
       * [Alpha](painting-with-images-and-shapes/brush-properties/polygon-brushes/stroke/alpha.md)
       * [Blending](painting-with-images-and-shapes/brush-properties/polygon-brushes/stroke/blending.md)
   * [Line Brush](painting-with-images-and-shapes/brush-properties/line-brushes.md)
+  * [Ellipse Brush](painting-with-images-and-shapes/brush-properties/ellipse-brush.md)
   * [Glyph Brush](painting-with-images-and-shapes/brush-properties/glyph-brush.md)
   * [Image Brush](painting-with-images-and-shapes/brush-properties/image-brushes.md)
 * [Paint API Reference](painting-with-images-and-shapes/brushstrokes/README.md)
