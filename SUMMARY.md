@@ -38,7 +38,7 @@
   * [Ellipse Brush](painting-with-images-and-shapes/brush-properties/ellipse-brush.md)
   * [Glyph Brush](painting-with-images-and-shapes/brush-properties/glyph-brush.md)
   * [Image Brush](painting-with-images-and-shapes/brush-properties/image-brushes.md)
-* [Paint API Reference](painting-with-images-and-shapes/brushstrokes/README.md)
+* [Painting](painting-with-images-and-shapes/brushstrokes/README.md)
   * [Single Points](painting-with-images-and-shapes/brushstrokes/points.md)
   * [Arrays of Points](painting-with-images-and-shapes/brushstrokes/arrays-of-points.md)
   * [Line Segments](painting-with-images-and-shapes/brushstrokes/lines.md)

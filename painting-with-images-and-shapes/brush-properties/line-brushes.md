@@ -4,17 +4,23 @@ description: Brushes that paint with lines
 
 # Line Brush
 
-Line brushes let you paint with — you guessed it — lines! Like other brushes, line brushes have the ability to scale, rotate, reposition, colorize, and blend. Below are a handful of primitive examples that shows what's possible with very little code.
+Line brushes let you paint with — you guessed it — lines! Like other brushes, line brushes have the ability to scale, rotate, reposition, colorize, and blend. Below are a handful of  examples that shows what's possible with very little code.
 
-![](../../.gitbook/assets/image%20%286%29.png)
+### Gallery
 
 ![](../../.gitbook/assets/image%20%285%29.png)
+
+![](../../.gitbook/assets/image%20%287%29.png)
+
+![](../../.gitbook/assets/image%20%286%29.png)
 
 ![](../../.gitbook/assets/image%20%283%29.png)
 
 ![](../../.gitbook/assets/image%20%281%29.png)
 
 ![](../../.gitbook/assets/image%20%284%29.png)
+
+### Basic Examples
 
 ![](../../.gitbook/assets/4a3650.jpeg)
 
