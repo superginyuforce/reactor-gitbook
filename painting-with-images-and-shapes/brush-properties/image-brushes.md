@@ -1,2 +1,2 @@
-# Image Brushes
+# Image Brush
 
