@@ -11,7 +11,7 @@ It is possible to "reset" these values to their initial state by calling the `re
 {% endhint %}
 
 {% hint style="warning" %}
-Other non-core properties are computed for each brush stroke, _not_ upon brush initialization. Such properties include things like shape scaling, scattering, etc. See: [Polygon Brushes](../polygon-brushes/)
+Other non-core properties are computed for each brush stroke, _not_ upon brush initialization. Such properties include things like shape scaling, scattering, etc. See: [Polygon Brushes](../brush-types/polygon-brushes/)
 {% endhint %}
 
 ### [Density](density.md)
