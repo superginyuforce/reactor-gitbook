@@ -12,7 +12,7 @@ Brushes let you use shapes, images, and other geometric primitives to paint. You
 
 ### [Brush Parameters](./#brush-parameters)
 
-All brushes inherit certain core parameters that control aspects like the base size, angle, and stroke density of the brush. These parameters are constant across strokes but can be modified procedurally. Other parameters, however, adhere to the behavior of the brush "tip" at each point in a stroke. The available parameter set differs for each type of brush, but there is often a considerable amount of overlap. 
+All brushes inherit certain core parameters that control aspects like the base size, angle, and stroke density of the brush and can be controlled procedurally. Other parameters, however, adhere to the behavior of the brush "tip" at each point in a stroke. The available parameter set differs for each type of brush, but there is often a considerable amount of overlap. 
 
 For example, the `PolygonBrush` has a parameter that controls the number of sides of the polygon, computed at each point in a stroke, while the `LineBrush` has a "line width" parameter. On the other hand, both have a "scale" and "angle" parameter.
 
