@@ -8,7 +8,7 @@ Image brushes let you paint with images.
 
 ### Gallery
 
-![](../../../../.gitbook/assets/2fd31f%20%281%29.jpeg)
-
 ![](../../../../.gitbook/assets/fee672.jpeg)
+
+![](../../../../.gitbook/assets/2fd31f%20%281%29.jpeg)
 
