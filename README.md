@@ -6,6 +6,8 @@ Reactor is a NodeJS framework for procedurally generating large-scale art and vi
 
 ![ &#x201C;My Brain During this Election Cycle&#x201D; by @brian.fernande](.gitbook/assets/test.gif)
 
+![](.gitbook/assets/abede0.png)
+
 ![](.gitbook/assets/2fd31f%20%282%29.jpeg)
 
 ![by @brian.fernande](.gitbook/assets/image%20%287%29.png)
