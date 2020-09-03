@@ -17,7 +17,7 @@ Every brush inherits certain core parameters that control aspects like its base 
 For example, the `PolygonBrush` has a parameter that controls the number of sides of the polygon at each point while the `LineBrush` has a "line width" parameter. On the other hand, both have a "scale" and "angle" parameter.
 
 {% hint style="info" %}
-The illustration of the paintbrush painting a red spiky/wavy line above uses a triangular Polygon Brush, filled with a color gradient, using a scale, angle and vertical offset determined by trigonometric functions.
+The illustration above of the paintbrush painting a red spiky wave uses a triangular Polygon Brush, filled with a color gradient, using trig functions to control scale, angle and vertical offsets.
 {% endhint %}
 
 ### [Brush Types](brush-types/)
