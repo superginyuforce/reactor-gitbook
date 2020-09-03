@@ -1,10 +1,12 @@
 ---
-description: Understanding brushes & how to use them
+description: Overview of the Brush API
 ---
 
 # Brushes
 
-![painting vertical lines with oscillating scale, using a triangle](../../.gitbook/assets/sine-waves.png)
+![](../../.gitbook/assets/brushstroke.png)
 
-Brushes allow you to paint with shapes, images, and other geometric primitives, using custom combinations of constant values, random ranges, and parametric functions to control every aspect of the brush, performing custom procedures, at each point in stroke. Brushes give you an intuitive and hopefully user-friendly way to make complex art from a set of geometric and functional primitives.
+Brushes let you use shapes, images, and other geometric primitives to paint. You can control each aspect of the brush, like angle, scale and color, using custom combinations of constants, random values, and parametric functions.
+
+The goal of the Brush API is to give you a friendly and intuitive interface for making beautiful, complex art with a handful of elegant geometric and procedural primitives.
 
