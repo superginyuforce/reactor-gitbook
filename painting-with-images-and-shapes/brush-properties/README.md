@@ -26,17 +26,15 @@ Reactor comes with several brush types. Each one corresponds to a different kind
 
 #### [Polygon Brush](brush-types/polygon-brushes/)
 
-Paint with filled and/or stroked triangles, rectangles, hexagons, etc.
-
-// TODO: insert image
+![](../../.gitbook/assets/4d5f7a.png)
 
 #### [Ellipse Brush](brush-types/ellipse-brush/)
 
-// TODO: insert image
+![](../../.gitbook/assets/5c445b.png)
 
 #### [Line Brush](brush-types/line-brushes/)
 
-// TODO: insert image
+![](../../.gitbook/assets/367115.png)
 
 #### [Image Brush](brush-types/image-brushes/)
 
