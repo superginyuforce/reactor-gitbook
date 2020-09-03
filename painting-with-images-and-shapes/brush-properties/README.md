@@ -42,5 +42,5 @@ Reactor comes with several brush types. Each one corresponds to a different kind
 
 #### [Glyph Brush](brush-types/glyph-brush/)
 
-TODO: insert image
+![](../../.gitbook/assets/8aba6d.png)
 
