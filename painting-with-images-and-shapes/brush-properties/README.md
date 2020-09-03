@@ -8,13 +8,17 @@ Brushes let you use shapes, images, and other geometric primitives to paint. You
 
 ![](../../.gitbook/assets/brushstroke.png)
 
-
+### 
 
 ### [Brush Parameters](./#brush-parameters)
 
 Every brush inherits certain core parameters that control aspects like its base radius, angle, and stroke density. Other parameters, however, relate to the behavior of the brush "tip" at _each point_ in a stroke. The available set of parameters differs for each type of brush, but there is often considerable overlap. 
 
-For example, the `PolygonBrush` has a parameter that controls the number of sides of the polygon, computed at each point in a stroke, while the `LineBrush` has a "line width" parameter. On the other hand, both have a "scale" and "angle" parameter.
+For example, the `PolygonBrush` has a parameter that controls the number of sides of the polygon at each point while the `LineBrush` has a "line width" parameter. On the other hand, both have a "scale" and "angle" parameter.
+
+{% hint style="info" %}
+The illustration of the paintbrush painting a red spiky/wavy line above uses a triangular Polygon Brush, filled with a color gradient, using a scale, angle and vertical offset determined by trigonometric functions.
+{% endhint %}
 
 ### [Brush Types](brush-types/)
 
