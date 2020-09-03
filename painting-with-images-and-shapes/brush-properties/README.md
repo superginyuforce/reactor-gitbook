@@ -4,11 +4,11 @@ description: Overview of the Brush API
 
 # Brushes
 
+Brushes let you use shapes, images, and other geometric primitives to paint. You can control every aspect of the brush — like angle, scale or color — using custom combinations of constants, random values, and parametric functions. In addition, brushes let you define custom procedures that apply at each point in a brushstroke. The goal of the Brush API is to give you a friendly user-interface for making beautiful, complex art with a handful of elegant geometric and procedural primitives.
+
 ![](../../.gitbook/assets/brushstroke.png)
 
 
-
-Brushes let you use shapes, images, and other geometric primitives to paint. You can control every aspect of the brush — like angle, scale or color — using custom combinations of constants, random values, and parametric functions. In addition, brushes let you define custom procedures that apply at each point in a brushstroke. The goal of the Brush API is to give you a friendly user-interface for making beautiful, complex art with a handful of elegant geometric and procedural primitives.
 
 ### [Brush Parameters](./#brush-parameters)
 
