@@ -6,8 +6,8 @@
 
 * [Overview](painting-with-images-and-shapes/overview.md)
 * [Brushes](painting-with-images-and-shapes/brush-properties/README.md)
-  * [Initialization](painting-with-images-and-shapes/brush-properties/brush-initialization.md)
-  * [Core Properties](painting-with-images-and-shapes/brush-properties/base-properties/README.md)
+  * [Brush Initialization](painting-with-images-and-shapes/brush-properties/brush-initialization.md)
+  * [Brush Parameters](painting-with-images-and-shapes/brush-properties/base-properties/README.md)
     * [Density](painting-with-images-and-shapes/brush-properties/base-properties/density.md)
     * [Radius](painting-with-images-and-shapes/brush-properties/base-properties/radius.md)
     * [Angle](painting-with-images-and-shapes/brush-properties/base-properties/angle.md)
