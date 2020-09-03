@@ -26,13 +26,19 @@ Here are some more primitive examples, manipulating only one or two parameters a
 
 ![](../../../../.gitbook/assets/4a3650.jpeg)
 
+![](../../../../.gitbook/assets/508758.png)
+
 ![](../../../../.gitbook/assets/275290%20%282%29.jpeg)
 
 ![](../../../../.gitbook/assets/f13716.jpeg)
 
+![](../../../../.gitbook/assets/e06fd9.png)
+
 ![](../../../../.gitbook/assets/3904cf%20%282%29.jpeg)
 
 ![](../../../../.gitbook/assets/4c2d2c%20%281%29.jpeg)
+
+![](../../../../.gitbook/assets/b48784.png)
 
 ![](../../../../.gitbook/assets/de8341%20%281%29.jpeg)
 
