@@ -2,7 +2,7 @@
 description: Painting individual points
 ---
 
-# Single Points
+# Points
 
 Paint at a specific location.
 

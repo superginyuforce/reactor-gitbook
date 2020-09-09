@@ -2,7 +2,7 @@
 description: Painting arrays of points
 ---
 
-# Arrays of Points
+# Point Arrays
 
 Paint at each point in a list of points.
 

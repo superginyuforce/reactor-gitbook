@@ -2,7 +2,7 @@
 description: Painting individual line segments
 ---
 
-# Line Segments
+# Lines
 
 Stroke a straight line between start and end points.
 
