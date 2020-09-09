@@ -10,5 +10,7 @@ For example, you can create a brush of swirling cycles of triangles, squares, pe
 
 ### Gallery
 
+![](../../../../.gitbook/assets/bc1c6d.png)
+
 ![](../../../../.gitbook/assets/abede0.png)
 

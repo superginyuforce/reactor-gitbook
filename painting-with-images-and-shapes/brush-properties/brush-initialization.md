@@ -1,4 +1,4 @@
-# Brush Initialization
+# Initialization
 
 Brushes are initialized from a plain _parameters_ object. Internally, each brush has a distinct pseudo-random number generator \(RNG\), which it uses to compute values brush properties, based on brush parameters. When a brush is initialized with missing parameters, reasonable defaults are used.
 

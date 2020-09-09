@@ -1,2 +1,2 @@
-# Brush Types
+# Types
 
