@@ -101,6 +101,7 @@
       * [Angle](painting-with-images-and-shapes/brush-properties/brush-types/glyph-brush/angle.md)
       * [Scale](painting-with-images-and-shapes/brush-properties/brush-types/glyph-brush/scale.md)
 * [Painting](painting-with-images-and-shapes/brushstrokes/README.md)
+  * [Bezier Curves](painting-with-images-and-shapes/brushstrokes/bezier-curves.md)
   * [Single Points](painting-with-images-and-shapes/brushstrokes/points.md)
   * [Arrays of Points](painting-with-images-and-shapes/brushstrokes/arrays-of-points.md)
   * [Line Segments](painting-with-images-and-shapes/brushstrokes/lines.md)
