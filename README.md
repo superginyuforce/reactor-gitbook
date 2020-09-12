@@ -14,6 +14,8 @@ Reactor is a NodeJS framework for procedurally generating large-scale art and vi
 
 ### Random Outputs...
 
+![](.gitbook/assets/image%20%285%29.png)
+
 ![](.gitbook/assets/screenshot-from-2020-09-11-14-12-13.png)
 
 ![](.gitbook/assets/screenshot-from-2020-09-11-14-31-49.png)
@@ -22,15 +24,11 @@ Reactor is a NodeJS framework for procedurally generating large-scale art and vi
 
 ![](.gitbook/assets/test.gif)
 
+![](.gitbook/assets/2fd31f%20%282%29.jpeg)
+
 ![by @brian.fernande](.gitbook/assets/image%20%287%29.png)
 
-![](.gitbook/assets/image%20%285%29.png)
-
-![](.gitbook/assets/bc1c6d.png)
-
 ![](.gitbook/assets/abede0.png)
-
-![](.gitbook/assets/2fd31f%20%282%29.jpeg)
 
 ![Concentric Rings with Triangular Brush](.gitbook/assets/b0b320.png)
 
