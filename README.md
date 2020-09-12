@@ -8,13 +8,13 @@ Reactor is a NodeJS framework for procedurally generating large-scale art and vi
 
 [**The source code can be found here.**](https://github.com/superginyuforce/reactor) **To request access, e-mail daniel@artfactory.io. We don't grant access to just anyone, but we're open to inquiries and collaboration.**
 
-![](.gitbook/assets/screenshot-from-2020-09-11-21-30-23.png)
-
 ![](.gitbook/assets/screenshot-from-2020-09-11-21-29-55.png)
 
 ![](.gitbook/assets/screenshot-from-2020-09-11-21-32-20.png)
 
-![](.gitbook/assets/screenshot-from-2020-09-11-21-28-02.png)
+![](.gitbook/assets/screenshot-from-2020-09-11-21-32-09.png)
+
+![](.gitbook/assets/screenshot-from-2020-09-11-21-30-23.png)
 
 ### 
 
