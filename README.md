@@ -4,11 +4,19 @@ description: Magic school bus for exploring high-definition procedurally generat
 
 # Reactor
 
-![](.gitbook/assets/screenshot-from-2020-09-11-20-22-52.png)
-
 Reactor is a NodeJS framework for procedurally generating large-scale art and visualizing it on mockups of physical objects. It contains a powerful library for painting with shapes and images, allowing you to control a variety of visual properties, both stochastically and parametrically.
 
 [**The source code can be found here.**](https://github.com/superginyuforce/reactor) **To request access, e-mail daniel@artfactory.io. We don't grant access to just anyone, but we're open to inquiries and collaboration.**
+
+![](.gitbook/assets/screenshot-from-2020-09-11-21-30-23.png)
+
+![](.gitbook/assets/screenshot-from-2020-09-11-21-29-55.png)
+
+![](.gitbook/assets/screenshot-from-2020-09-11-21-32-20.png)
+
+![](.gitbook/assets/screenshot-from-2020-09-11-21-28-02.png)
+
+### 
 
 ### Random Outputs...
 
