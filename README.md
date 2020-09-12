@@ -1,7 +1,5 @@
 ---
-description: >-
-  Magical school bus for exploring high-def procedurally generated art through
-  code
+description: Magical school bus for exploring high-def procedurally generated art
 ---
 
 # Reactor
