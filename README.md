@@ -2,6 +2,8 @@
 
 Reactor is a NodeJS framework for procedurally generating large-scale art and visualizing it on mockups of physical objects. It contains a powerful library for painting with shapes and images, allowing you to control a variety of visual properties, both stochastically and parametrically.
 
+[**The source code can be found here.**](https://github.com/superginyuforce/reactor)\*\*\*\*
+
 ![](.gitbook/assets/image%20%285%29.png)
 
 ![](.gitbook/assets/bc1c6d.png)
