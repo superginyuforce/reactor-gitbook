@@ -2,5 +2,5 @@
 description: Painting with brushes
 ---
 
-# Strokes
+# Brushstrokes
 

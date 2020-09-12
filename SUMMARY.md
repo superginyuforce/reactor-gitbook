@@ -99,7 +99,7 @@
         * [Vertical Offset](painting-with-images-and-shapes/brush-properties/brush-types/glyph-brush/offset/vertical-offset.md)
       * [Angle](painting-with-images-and-shapes/brush-properties/brush-types/glyph-brush/angle.md)
       * [Scale](painting-with-images-and-shapes/brush-properties/brush-types/glyph-brush/scale.md)
-* [Strokes](painting-with-images-and-shapes/brushstrokes/README.md)
+* [Brushstrokes](painting-with-images-and-shapes/brushstrokes/README.md)
   * [Lines](painting-with-images-and-shapes/brushstrokes/lines.md)
   * [Rings](painting-with-images-and-shapes/brushstrokes/rings.md)
   * [Spirals](painting-with-images-and-shapes/brushstrokes/spirals.md)
