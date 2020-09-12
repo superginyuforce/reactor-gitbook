@@ -2,7 +2,7 @@
 
 * [Reactor](README.md)
 
-## Paint API <a id="painting-with-images-and-shapes"></a>
+## Brush API <a id="painting-with-images-and-shapes"></a>
 
 * [Brushes](painting-with-images-and-shapes/brush-properties/README.md)
   * [Initialization](painting-with-images-and-shapes/brush-properties/brush-initialization.md)
