@@ -1,8 +1,8 @@
+---
+description: How to set up your brushes
+---
+
 # Initialization
 
-Brushes are initialized from a plain _parameters_ object. Internally, each brush has a distinct pseudo-random number generator \(RNG\), which it uses to compute values brush properties, based on brush parameters. When a brush is initialized with missing parameters, reasonable defaults are used.
-
-### Parameters
-
-Fixed values, ranges of random values, and in some cases, parametric functions can be set as brush parameters. Each brush inherits certain base properties, whose initial values are derived from parameters upon instantiation, while other properties are computed each time a "paint" method is called.
+Brush parameters define the visual dynamics of a stroke. They have several core parameters that define the size and orientation of the brush tip as well as stroke density. Depending on the type of brush, there are a myriad of other parameters whose values are computed at runtime with each stroke and can be set to fixed values, random ranges, sample sets, or parametric functions. Overall, there are many more details and features, but if you can wrap your head around the basic idea of a Brush in Reactor,  you can get quite far, generating jaw-dropping art.
 
