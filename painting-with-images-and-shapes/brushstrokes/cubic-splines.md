@@ -13,7 +13,7 @@ Connect a sequence of points using cubic polynomials
 **`brush.paintCubicSplines(layer, points, tension = 0.2, closed?)`**‌
 
 {% hint style="info" %}
-While you can achieve something similar by manually painting a sequence of line segments, the splines method flattens the all splines into a _single_ array of points, which the brush paints in a single stroke.
+Although you can achieve something similar by manually painting a sequence of curves, this method flattens all splines into a _single path_, which the brush interpolates in one stroke.
 {% endhint %}
 
 ### ‌Parameters‌‌ <a id="parameters"></a>
