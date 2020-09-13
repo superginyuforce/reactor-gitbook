@@ -19,7 +19,7 @@ Draw a cubic Bezier curve between two points, using two control points.
 * **cp2** - second control point
 * **end** - end point of line segment
 
-| Name | Type/s | Example/s |
+| Name | Type/s | Examples |
 | :--- | :--- | :--- |
 | start | `Vector`, `Array`, `Object` | `new Vector(x, y)`, `[x, y]`, `{x, y}` |
 | cp1 | `Vector`, `Array`, `Object` | `new Vector(x, y)`, `[x, y]`, `{x, y}` |

@@ -22,7 +22,7 @@ While you can achieve something similar by manually painting a sequence of line 
 2. **tension** - 0.0 tension means maximum curvaceousness. 1.0 means completely rigid
 3. **closed** - if `true`, the last point will be connected to the first point
 
-| Name | Type/s | Example/s |
+| Name | Type/s | Examples |
 | :--- | :--- | :--- |
 | points | `Array<Vector|Array|Object>` | `[new Vector(x, y)]`, `[[x, y]]`, `[{x, y}]` |
 | tension | `float?` | `0`, `0.2`, `1.0` |

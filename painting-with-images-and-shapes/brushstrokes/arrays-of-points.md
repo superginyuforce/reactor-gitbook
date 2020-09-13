@@ -16,7 +16,7 @@ Dab the brush at each point in a list of points.
 
 1. **point** - array of points at which the brush is drawn
 
-| Name | Type/s | Example |
+| Name | Type/s | Examples |
 | :--- | :--- | :--- |
 | points | `Array<Vector|Array|Object>` | `[new Vector(x, y)`, `[x, y]`, `{x, y}]` |
 

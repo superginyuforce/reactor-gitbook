@@ -18,7 +18,7 @@ Draw a ring with evenly spaced points along the circumference, regardless of bru
 2. **radius** - radius of ring, expressed in fraction of layer radius \(0.2 means 20% of layer radius\)
 3. **angle** - angle, rotated from 0 , at which initial point in ring path is drawn 
 
-| Name | Type/s | Example/s |
+| Name | Type/s | Examples |
 | :--- | :--- | :--- |
 | center | `Vector`, `Array`, `Object` | `new Vector(x, y)`, `[x, y]`, `{x, y}` |
 | radius | `float` | `0.20  (% layer width)` |

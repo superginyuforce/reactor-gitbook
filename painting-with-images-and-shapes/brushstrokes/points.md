@@ -20,7 +20,7 @@ If you have a large set of points, use the`paintPoints` method. See: [Arrays of 
 
 1. **point** - point at which the brushstroke is drawn
 
-| Name | Type/s | Example/s |
+| Name | Type/s | Examples |
 | :--- | :--- | :--- |
 | point | `Vector`, `Array`, `Object` | `new Vector(x, y)`, `[x, y]`, `{x, y}` |
 

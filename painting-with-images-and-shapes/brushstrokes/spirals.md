@@ -19,7 +19,7 @@ Draw a spiral, according to its desired position, radius, and coils, i.e. number
 3. **coils** - the number of levels or coils in the spiral
 4. **angle** - angle, rotated from 0 , at which initial point in ring path is drawn **\(not yet implemented\)**
 
-| Name | Type/s | Example/s |
+| Name | Type/s | Examples |
 | :--- | :--- | :--- |
 | center | `Vector`, `Array`, `Object` | `new Vector(x, y)`, `[x, y]`, `{x, y}` |
 | radius | `float` | `0.5  (% layer width)` |

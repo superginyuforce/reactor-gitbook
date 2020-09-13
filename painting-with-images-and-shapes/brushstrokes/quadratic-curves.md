@@ -14,7 +14,7 @@ Draw a quadratic Bezier curve between two points, using a single control points.
 * **cp** - control point
 * **end** - end point of line segment
 
-| Name | Type/s | Example/s |
+| Name | Type/s | Examples |
 | :--- | :--- | :--- |
 | start | `Vector`, `Array`, `Object` | `new Vector(x, y)`, `[x, y]`, `{x, y}` |
 | cp | `Vector`, `Array`, `Object` | `new Vector(x, y)`, `[x, y]`, `{x, y}` |

@@ -21,7 +21,7 @@ While you can achieve something similar by manually painting a sequence of line 
 1. **points** - sequence of points to stroke
 2. **closed** - if `true`, the last point will be connected to the first point
 
-| Name | Type/s | Example/s |
+| Name | Type/s | Examples |
 | :--- | :--- | :--- |
 | points | `Array<Vector|Array|Object>` | `[new Vector(x, y)]`, `[[x, y]]`, `[{x, y}]` |
 | closed | `boolean?` | `true`, `null` |
