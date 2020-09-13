@@ -6,7 +6,7 @@ description: Stroke the outline of font glyphs
 
 Trace an SVG path, i.e. the "d" value of a `<path d="M....">` SVG element.
 
-![](../../.gitbook/assets/screenshot-from-2020-09-11-14-12-13.png)
+![](../../.gitbook/assets/screenshot-from-2020-09-11-11-05-28.png)
 
 ### Brush Method <a id="overview"></a>
 
