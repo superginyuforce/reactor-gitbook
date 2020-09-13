@@ -24,7 +24,7 @@ Stroke a straight line between start and end points.
 
 ### Example
 
-#### Paint a Single Line Segment
+#### Paint a single line segment
 
 ```javascript
 class LineExample extends Design {
