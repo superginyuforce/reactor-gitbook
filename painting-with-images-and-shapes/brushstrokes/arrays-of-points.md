@@ -6,11 +6,11 @@ description: Painting arrays of points
 
 Paint at each point in a list of points.
 
-![array of points, painted in batch with a rotating &amp; scaling triangular brush](../../.gitbook/assets/5687ee.png)
+![](../../.gitbook/assets/1e2be4.png)
 
 ### Brush Method <a id="overview"></a>
 
-**`paintPoints(layer, points)`**
+**`paintPointArray(layer, points)`**
 
 ### ‌Parameters‌
 
@@ -28,6 +28,6 @@ Paint at each point in a list of points.
 const p1 = {x: 10, y: 10}
 const p2 = {x: 50, y: 45}
 
-brush.paintPoints(layer, [p1, p2])
+brush.paintPointArray(layer, [p1, p2])
 ```
 

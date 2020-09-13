@@ -6,7 +6,7 @@ description: Painting individual points
 
 Paint at a specific location.
 
-![points painted individually with a rotating &amp; scaling triangular brush](../../.gitbook/assets/4fcead.png)
+![](../../.gitbook/assets/ab41c5.png)
 
 ### Brush Method <a id="overview"></a>
 
