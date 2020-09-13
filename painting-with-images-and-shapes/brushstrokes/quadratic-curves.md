@@ -1,3 +1,7 @@
+---
+description: Stroke a quadratic curve with one control point
+---
+
 # Quadratic Curves
 
 Draw a quadratic Bezier curve between two points, using a single control points.

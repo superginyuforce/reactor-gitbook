@@ -1,3 +1,7 @@
+---
+description: Stroke the outline of font glyphs
+---
+
 # Font Glyphs
 
 Trace an SVG path, i.e. the "d" value of a `<path d="M....">` SVG element.
