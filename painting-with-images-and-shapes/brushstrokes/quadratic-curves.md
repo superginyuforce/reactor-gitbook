@@ -29,12 +29,28 @@ Draw a quadratic Bezier curve between two points, using a single control points.
 #### Paint a single quadratic curve
 
 ```javascript
-const start = {x: 10, y: 10}
-const end = {x: 200, y: 50}
-const cp = {x: 20, y: 30}
-
-brush.paintQuadraticCurve(layer, start, cp, end)
+class QuadraticCurveExample extends Design {
+    async draw(layer) {
+        let brush = new EllipseBrush()
+        let colors = this.random.colors(2)
+        
+        brush.radius = 0.035
+        brush.density = this.random.real(4, 16)
+        brush.tip.eccentricity.x = 0.5
+        brush.tip.angle = (i, j, n, m) => 2 * PI * sin(2 * PI * (i/n))
+        brush.tip.stroke.width = this.random.real(0.002, 0.003)
+        brush.tip.stroke.alpha = 0.5
+        brush.tip.fill.color = (i) => colors[i % colors.length]
+        brush.tip.fill.alpha = {min: 0.75, max: 1.0}
+        
+        let start = {x: 50, y: 50}
+        let end = {x: layer.width - 50, y: layer.height - 50}
+        let cp = {x: layer.center.x, y: 0}
+        
+        brush.paintQuadraticCurve(layer, start, cp, end)
+    }
+}
 ```
 
-
+![Example Output](../../.gitbook/assets/986ee4.png)
 

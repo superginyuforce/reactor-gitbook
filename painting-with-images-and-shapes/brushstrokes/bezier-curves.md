@@ -31,13 +31,28 @@ Draw a cubic Bezier curve between two points, using two control points.
 #### Paint a single Bezier curve
 
 ```javascript
-const start = {x: 10, y: 10}
-const end = {x: 200, y: 50}
-const cp1 = {x: 20, y: 30}
-const cp2 = {x: 160, y: 10}
-
-brush.paintBezierCurve(layer, start, cp1, cp2, end)
+class BezierCurveExample extends Design {
+    async draw(layer) {
+        let brush = new PolygonBrush()
+        let colors = this.random.colors(2)
+        
+        brush.radius = 0.035
+        brush.density = 10
+        brush.tip.angle = (i, j, n, m) => 2 * PI * sin(2 * PI * (i/n))
+        brush.tip.stroke.width = this.random.real(0.002, 0.003)
+        brush.tip.stroke.alpha = 0.5
+        brush.tip.fill.color = (i) => colors[i % colors.length]
+        brush.tip.fill.alpha = {min: 0.75, max: 1.0}
+        
+        let start = {x: 50, y: 50}
+        let end = {x: layer.width - 50, y: layer.height - 50}
+        let cp1 = {x: layer.center.x * 2/3, y: 0}
+        let cp2 = {x: layer.center.x * 4/3, y: layer.height}
+        
+        brush.paintBezierCurve(layer, start, cp1, cp2, end)
+    }
+}
 ```
 
-
+![](../../.gitbook/assets/6e8107.png)
 
