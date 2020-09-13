@@ -19,7 +19,7 @@ Trace an SVG path, i.e. the "d" value of a `<path d="M....">` SVG element.
 | :--- | :--- | :--- |
 | text | `string` | `"quantum"`, `"浮"`  |
 | fontName | `string` | `"umeboshi"` |
-| fontSize | `integer` | `12`, `24` |
+| fontSize | `integer` | `22`, `50` |
 | center | `Vector`, `Array`, `Object` | `[new Vector(x, y)]`, `[[x, y]]`, `[{x, y}]` |
 
 {% hint style="info" %}
@@ -32,10 +32,11 @@ Reactor is aware of path text files located in `svg/paths` directory. If you hav
 
 ```javascript
 const reactor = Reactor.getInstance()
-const pathString = reactor.svgManager.getPath('foo')
+const text = "spam"
 const center = layer.center
-const scale = 2.0
+const fontName = "barlow-light"
+const fontSize = 64
 
-brush.paintSvgPath(layer, pathString, center, scale)
+brush.paintGlyphs(layer, text, fontName, fontSize, center)
 ```
 
