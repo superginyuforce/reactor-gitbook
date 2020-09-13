@@ -30,17 +30,50 @@ Stroke the outline of font glyphs.
 Reactor auto-loads fonts in the top-level `fonts` directory. If you have a font called `my-font.ttf`, then you can reference this font by name, like `"my-font"`.
 {% endhint %}
 
+{% hint style="success" %}
+In addition to being able to paint glyphs, glyphs can be used as a brush tip with the [`GlyphBrush`](../brush-properties/brush-types/glyph-brush/) type.
+{% endhint %}
+
 ### Example
 
-#### Paint an Array of Points
+#### Stroke the characters `["L", "S", "D"]`
 
 ```javascript
-const reactor = Reactor.getInstance()
-const text = "spam"
-const center = layer.center
-const fontName = "barlow-light"
-const fontSize = 64
+class GlyphExample extends Design {
+    async draw(layer) {
+        let brush = new PolygonBrush()
+        let colors = this.random.colors(2)
 
-brush.paintGlyphs(layer, text, fontName, fontSize, center)
+        brush.radius = this.random.real(0.01, 0.1)
+        brush.density = this.random.real(1, 20)
+        brush.steps = 4
+        brush.tip.scattering.x = {min: 0, max: 0.025}
+        brush.tip.scattering.y = {min: 0, max: 0.025}
+        brush.tip.angle = (i, j, n, m) => 2 * PI * sin(2 * PI * (i/n))
+        brush.tip.scale = (i, j, n, m) => 1 / (0.2 * j + 1)
+        brush.tip.stroke.width = this.random.real(0.002, 0.003)
+        brush.tip.stroke.alpha = 0.5
+        brush.tip.fill.color = (i) => colors[i % colors.length]
+        brush.tip.fill.alpha = {min: 0.75, max: 1.0}
+        
+        if (this.random.flip()) {
+          let p = this.random.real()  // btw 0..1
+          brush.tip.fill.probability = (i, j) => i % 2 ? 0 : p
+        } else {
+          brush.tip.fill.probability = 1
+        }
+        
+        let text = 'LSD'
+        let font = 'umeboshi'
+        let size = layer.height * 0.8
+        let position = {x: 200, y: layer.height - 200}
+        
+        brush.paintGlyphs(layer, text, font, size, position)
+    }
+}
 ```
+
+![Example Output](../../.gitbook/assets/lsd%20%281%29.png)
+
+
 
