@@ -47,8 +47,6 @@ class GlyphExample extends Design {
         brush.radius = this.random.real(0.01, 0.1)
         brush.density = this.random.real(1, 20)
         brush.steps = 4
-        brush.tip.scattering.x = {min: 0, max: 0.025}
-        brush.tip.scattering.y = {min: 0, max: 0.025}
         brush.tip.angle = (i, j, n, m) => 2 * PI * sin(2 * PI * (i/n))
         brush.tip.scale = (i, j, n, m) => 1 / (0.2 * j + 1)
         brush.tip.stroke.width = this.random.real(0.002, 0.003)
