@@ -31,10 +31,27 @@ Draw a spiral, according to its desired position, radius, and coils, i.e. number
 #### Paint a Spiral Centered on Layer
 
 ```javascript
-const center = layer.center
-const radius = 0.5  // 50% canvas radius
-const coils = 3.5   // 3.5 rotations of the spiral
-
-brush.paintSpiral(layer, center, radius, coils)
+class SpiralExample extends Design {
+    async draw(layer) {
+        let brush = new PolygonBrush()
+        let colors = this.random.colors(2)
+        
+        brush.radius = 0.035
+        brush.density = 12
+        brush.tip.angle = (i, j, n, m) => (2 * PI) * sin(2 * PI * (i/(n-1)))
+        brush.tip.stroke.width = this.random.real(0.002, 0.003)
+        brush.tip.stroke.alpha = 0.5
+        brush.tip.fill.color = (i) => colors[i % colors.length]
+        brush.tip.fill.alpha = {min: 0.75, max: 1.0}
+        
+        let center = layer.center
+        let radius = 0.6
+        let coils = this.random.real(2, 5)
+        
+        brush.paintSpiral(layer, center, radius, coils)
+    }
+}
 ```
+
+![Example Output](../../.gitbook/assets/c40bce.png)
 

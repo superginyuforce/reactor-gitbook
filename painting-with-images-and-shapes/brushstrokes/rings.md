@@ -26,13 +26,30 @@ Draw a ring with evenly spaced points along the circumference, regardless of bru
 
 ### Example
 
-#### Paint a Ring Centered on Layer
+#### Paint a Ring centered on layer
 
 ```javascript
-const center = layer.center
-const radius = 0.4  // 40% canvas radius
-const angle0 = 1/2 * Math.PI  // starting angle
-
-brush.paintRing(layer, center, radius, angle0)
+class RingExample extends Design {
+    async draw(layer) {
+        let brush = new PolygonBrush()
+        let colors = this.random.colors(2)
+        
+        brush.radius = 0.045
+        brush.density = 10
+        brush.tip.angle = (i, j, n, m) => (2 * PI) * sin(2 * PI * (i/(n-1)))
+        brush.tip.stroke.width = this.random.real(0.002, 0.003)
+        brush.tip.stroke.alpha = 0.5
+        brush.tip.fill.color = (i) => colors[i % colors.length]
+        brush.tip.fill.alpha = {min: 0.75, max: 1.0}
+        
+        let center = layer.center
+        let radius = 0.4
+        let angle0 = this.random.radians()
+        
+        brush.paintRing(layer, center, radius, angle0)
+    }
+}
 ```
+
+![Example Output](../../.gitbook/assets/1cea68.png)
 
