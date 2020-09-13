@@ -4,7 +4,7 @@ description: Stroke the outline of font glyphs
 
 # Font Glyphs
 
-Trace an SVG path, i.e. the "d" value of a `<path d="M....">` SVG element.
+Trace an SVG path, i.e. the "d" attribute of a `<path d="M....">` SVG element.
 
 ![](../../.gitbook/assets/screenshot-from-2020-09-11-11-05-28.png)
 
