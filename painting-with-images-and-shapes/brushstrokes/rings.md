@@ -6,7 +6,7 @@ description: Overview of ring brushstrokes
 
 Draw a ring with evenly spaced points along the circumference, regardless of brush density.
 
-![rings painted with a rotating triangular brush](../../.gitbook/assets/602381.png)
+![](../../.gitbook/assets/b636ae.png)
 
 ### Brush Method <a id="overview"></a>
 
@@ -31,8 +31,8 @@ Draw a ring with evenly spaced points along the circumference, regardless of bru
 ```javascript
 const center = layer.center
 const radius = 0.4  // 40% canvas radius
-const angle = 1/2 * Math.PI  // starting angle
+const angle0 = 1/2 * Math.PI  // starting angle
 
-brush.paintRing(layer, center, radius, angle)
+brush.paintRing(layer, center, radius, angle0)
 ```
 

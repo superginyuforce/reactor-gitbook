@@ -6,7 +6,7 @@ description: Painting individual line segments
 
 Stroke a straight line between start and end points.
 
-![line segments, painted with a rotating triangular brush](../../.gitbook/assets/a90192.png)
+![](../../.gitbook/assets/a02e10.png)
 
 ### Brush Method
 

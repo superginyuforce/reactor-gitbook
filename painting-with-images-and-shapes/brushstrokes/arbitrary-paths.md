@@ -1,12 +1,12 @@
 ---
-description: Overview of linear splines
+description: Stroking a continuous sequence of line segments
 ---
 
 # Linear Splines
 
 Connect a sequence of points using lines, like a line graph.
 
-![several linear spline sequences painted with a rotating triangular brush](../../.gitbook/assets/d75b3d.png)
+![](../../.gitbook/assets/8605d3.png)
 
 ### Brush Method <a id="overview"></a>
 

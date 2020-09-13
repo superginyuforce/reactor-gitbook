@@ -6,7 +6,7 @@ description: Overview of spiral brushstrokes
 
 Draw a spiral, according to its desired position, radius, and coils, i.e. number full rotations.
 
-![spirals painted with a rotating triangular brush](../../.gitbook/assets/11a679.png)
+![](../../.gitbook/assets/776d02.png)
 
 ### Brush Method
 
