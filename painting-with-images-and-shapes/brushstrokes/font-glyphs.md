@@ -4,7 +4,7 @@ description: Stroke the outline of font glyphs
 
 # Font Glyphs
 
-Trace an SVG path, i.e. the "d" attribute of a `<path d="M....">` SVG element.
+Stroke the outline of font glyphs.
 
 ![](../../.gitbook/assets/screenshot-from-2020-09-11-11-05-28.png)
 
@@ -27,7 +27,7 @@ Trace an SVG path, i.e. the "d" attribute of a `<path d="M....">` SVG element.
 | center | `Vector`, `Array`, `Object` | `[new Vector(x, y)]`, `[[x, y]]`, `[{x, y}]` |
 
 {% hint style="info" %}
-Reactor is aware of path text files located in `svg/paths` directory. If you have a path file called "foo", then you'll be able to load this file at runtime via `reactor.svgManager.getPath("foo")`.
+Reactor auto-loads fonts in the top-level `fonts` directory. If you have a font called `my-font.ttf`, then you can reference this font by name, like `"my-font"`.
 {% endhint %}
 
 ### Example
