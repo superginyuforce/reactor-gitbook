@@ -29,7 +29,7 @@ Stroke a straight line between start and end points.
 ```javascript
 class LineExample extends Design {
     async draw(layer) {
-        let brush = new PolygonBrush({ radius: 0.025, density: 5.0 })
+        let brush = new PolygonBrush()
         let colors = this.random.colors(2)
         
         brush.radius = 0.035
