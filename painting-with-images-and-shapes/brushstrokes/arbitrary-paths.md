@@ -33,11 +33,12 @@ While you can achieve something similar by manually painting a sequence of line 
 ```javascript
 class LinearSplinesExample extends Design {
     async draw(layer) {
-        let brush = new PolygonBrush()
+        let brush = new EllipseBrush()
         let colors = this.random.colors(2)
         
         brush.radius = 0.035
         brush.density = 12
+        brush.tip.eccentricity.x = 0.5
         brush.tip.angle = (i, j, n, m) => (2 * PI) * sin(2 * PI * (i/(n-1)))
         brush.tip.stroke.width = this.random.real(0.002, 0.003)
         brush.tip.stroke.alpha = 0.5
@@ -52,7 +53,7 @@ class LinearSplinesExample extends Design {
         for (let i = 0; i < n - 1; i++) {
           points.push({
             x: dx * (i + 1),
-            y: layer.center.y + dy * (i % 2 ? 1 : -1)
+            y: layer.center.y + dy * i * 0.075 * (i % 2 ? 1 : -1)
           })
         }
         
@@ -61,9 +62,7 @@ class LinearSplinesExample extends Design {
 }
 ```
 
-
-
-![Example Output](../../.gitbook/assets/210392.png)
+![Example Output](../../.gitbook/assets/a8a43d.png)
 
 
 

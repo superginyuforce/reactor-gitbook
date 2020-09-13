@@ -33,19 +33,36 @@ While you can achieve something similar by manually painting a sequence of line 
 #### Paint a horizontal zigzag
 
 ```javascript
-const n = 4
-const dx = layer.width / n
-const points = []
-
-// create sequence of endpoints from left to right,
-// alternating from top to bottom....
-for (let i = 0; i < n + 1; i++) {
-    points.push({
-        x: i * dx, 
-        y: (i % 2) * layer.height
-    })
+class CubicSplinesExample extends Design {
+    async draw(layer) {
+        let brush = new EllipseBrush()
+        let colors = this.random.colors(2)
+        
+        brush.radius = 0.035
+        brush.density = 5
+        brush.tip.eccentricity.x = 0.5        
+        brush.tip.angle = (i, j, n, m) => (2 * PI) * sin(2 * PI * (i/(n-1)))
+        brush.tip.stroke.width = this.random.real(0.002, 0.003)
+        brush.tip.stroke.alpha = 0.5
+        brush.tip.fill.color = (i) => colors[i % colors.length]
+        brush.tip.fill.alpha = {min: 0.75, max: 1.0}
+        
+        let n = 15
+        let dx = layer.width / n
+        let dy = layer.height * 0.4
+        let points = []
+        
+        for (let i = 0; i < n - 1; i++) {
+          points.push({
+            x: dx * (i + 1),
+            y: layer.center.y + 0.075 * dy * i * (i % 2 ? 1 : -1)
+          })
+        }
+        
+        brush.paintLinearSplines(layer, points)
+    }
 }
-
-brush.paintCubicSplines(layer, points)
 ```
+
+![Example Output](../../.gitbook/assets/d9d19c.png)
 
