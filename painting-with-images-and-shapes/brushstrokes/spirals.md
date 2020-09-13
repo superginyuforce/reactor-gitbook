@@ -38,7 +38,7 @@ class SpiralExample extends Design {
         
         brush.radius = 0.035
         brush.density = 12
-        brush.tip.angle = (i, j, n, m) => (2 * PI) * sin(2 * PI * (i/(n-1)))
+        brush.tip.angle = (i, j, n, m) => 2 * PI * sin(2 * PI * (i/n))
         brush.tip.stroke.width = this.random.real(0.002, 0.003)
         brush.tip.stroke.alpha = 0.5
         brush.tip.fill.color = (i) => colors[i % colors.length]
