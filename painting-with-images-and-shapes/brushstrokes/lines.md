@@ -24,7 +24,7 @@ Stroke a straight line between start and end points.
 
 ### Example
 
-#### Paint a single line segment
+#### Paint a single diagonal line
 
 ```javascript
 class LineExample extends Design {

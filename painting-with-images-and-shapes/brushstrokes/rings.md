@@ -26,7 +26,7 @@ Draw a ring with evenly spaced points along the circumference, regardless of bru
 
 ### Example
 
-#### Paint a Ring centered on layer
+#### Paint a ring centered on layer
 
 ```javascript
 class RingExample extends Design {

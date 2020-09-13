@@ -28,7 +28,7 @@ Draw a spiral, according to its desired position, radius, and coils, i.e. number
 
 ### Example
 
-#### Paint a Spiral Centered on Layer
+#### Paint a spiral centered on layer
 
 ```javascript
 class SpiralExample extends Design {

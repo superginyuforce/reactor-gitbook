@@ -26,10 +26,10 @@ If you have a large set of points, use the`paintPoints` method. See: [Arrays of 
 
 ### Example
 
-#### Paint One Point
+#### Paint a grid of off-center points
 
 ```javascript
-class CubicSplinesExample extends Design {
+class PointExample extends Design {
     async draw(layer) {
         let brush = new PolygonBrush()
         let colors = this.random.colors(2)
@@ -48,7 +48,6 @@ class CubicSplinesExample extends Design {
         let n = 15
         let dx = layer.width / n
         let dy = layer.height * 0.4
-        let points = []
         
         let n = Math.round(layer.height / (layer.height * brush.radius))
         let m = Math.round(layer.width / (layer.width * brush.radius))

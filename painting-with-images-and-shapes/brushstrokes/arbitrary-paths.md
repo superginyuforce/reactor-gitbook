@@ -28,7 +28,7 @@ While you can achieve something similar by manually painting a sequence of line 
 
 ### Example
 
-#### Paint a horizontal zigzag
+#### Paint a horizontally expanding zigzag
 
 ```javascript
 class LinearSplinesExample extends Design {

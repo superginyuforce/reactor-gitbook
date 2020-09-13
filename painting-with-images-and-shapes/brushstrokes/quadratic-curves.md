@@ -26,7 +26,7 @@ Draw a quadratic Bezier curve between two points, using a single control points.
 
 ### Example
 
-#### Paint a single Bezier curve
+#### Paint a single quadratic curve
 
 ```javascript
 const start = {x: 10, y: 10}

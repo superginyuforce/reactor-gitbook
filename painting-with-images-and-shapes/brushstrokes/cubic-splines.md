@@ -30,7 +30,7 @@ Although you can achieve something similar by manually painting a sequence of cu
 
 ### Example
 
-#### Paint a horizontal zigzag
+#### Paint a horizontally expanding zigzag
 
 ```javascript
 class CubicSplinesExample extends Design {
