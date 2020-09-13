@@ -10,7 +10,7 @@ Draw a ring with evenly spaced points along the circumference, regardless of bru
 
 ### Brush Method <a id="overview"></a>
 
-**`paintRing(layer, center, radius, angle?)`**
+**`brush.paintRing(layer, center, radius, angle?)`**
 
 ### Parameters <a id="parameters"></a>
 

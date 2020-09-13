@@ -10,7 +10,7 @@ Draw a spiral, according to its desired position, radius, and coils, i.e. number
 
 ### Brush Method
 
-**`paintSpiral(layer, center, radius, coils, angle?)`**
+**`brush.paintSpiral(layer, center, radius, coils, angle?)`**
 
 ### Parameters
 

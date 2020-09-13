@@ -1,36 +1,35 @@
----
-description: Painting individual line segments
----
+# Quadratic Curves
 
-# Lines
+Draw a quadratic Bezier curve between two points, using a single control points.
 
-Stroke a straight line between start and end points.
-
-![](../../.gitbook/assets/a02e10.png)
+![](../../.gitbook/assets/af753f.png)
 
 ### Brush Method
 
-**`brush.paintLine(layer, start, end)`**
+**`brush.paintQuadraticCurve(layer, start, cp, end)`**
 
 ### Parameters
 
 * **start** - starting point of line segment
+* **cp** - control point
 * **end** - end point of line segment
 
 | Name | Type/s | Example/s |
 | :--- | :--- | :--- |
 | start | `Vector`, `Array`, `Object` | `new Vector(x, y)`, `[x, y]`, `{x, y}` |
+| cp | `Vector`, `Array`, `Object` | `new Vector(x, y)`, `[x, y]`, `{x, y}` |
 | end | `Vector`, `Array`, `Object` | `new Vector(x, y)`, `[x, y]`, `{x, y}` |
 
 ### Example
 
-#### Paint a Single Line Segment
+#### Paint a single Bezier curve
 
 ```javascript
 const start = {x: 10, y: 10}
 const end = {x: 200, y: 50}
+const cp = {x: 20, y: 30}
 
-brush.paintLine(layer, start, end)
+brush.paintQuadraticCurve(layer, start, cp, end)
 ```
 
 

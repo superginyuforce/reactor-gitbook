@@ -4,13 +4,13 @@ description: Painting arrays of points
 
 # Point Arrays
 
-Paint at each point in a list of points.
+Dab the brush at each point in a list of points.
 
-![](../../.gitbook/assets/1e2be4.png)
+![](../../.gitbook/assets/00e300.png)
 
 ### Brush Method <a id="overview"></a>
 
-**`paintPointArray(layer, points)`**
+**`brush.paintPointArray(layer, points)`**
 
 ### ‌Parameters‌
 

@@ -4,13 +4,13 @@ description: Painting individual points
 
 # Points
 
-Paint at a specific location.
+Dab the brush at a specific location.
 
-![](../../.gitbook/assets/ab41c5.png)
+![](../../.gitbook/assets/6167ae.png)
 
 ### Brush Method <a id="overview"></a>
 
-**`paintPoint(layer, point)`**
+**`brush.paintPoint(layer, point)`**
 
 {% hint style="warning" %}
 If you have a large set of points, use the`paintPoints` method. See: [Arrays of Points](arrays-of-points.md) 

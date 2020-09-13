@@ -1,5 +1,5 @@
 ---
-description: Painting cubic Bezier curves
+description: Stroking Bezier curves
 ---
 
 # Bezier Curves
@@ -10,7 +10,7 @@ Draw a cubic Bezier curve between two points, using two control points.
 
 ### Brush Method
 
-**`paintBezierCurve(layer, start, cp1, cp2, end)`**
+**`brush.paintBezierCurve(layer, start, cp1, cp2, end)`**
 
 ### Parameters
 
@@ -36,7 +36,7 @@ const end = {x: 200, y: 50}
 const cp1 = {x: 20, y: 30}
 const cp2 = {x: 160, y: 10}
 
-brush.paintLine(layer, start, cp1, cp2, end)
+brush.paintBezierCurve(layer, start, cp1, cp2, end)
 ```
 
 

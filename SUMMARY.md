@@ -104,10 +104,11 @@
   * [Rings](painting-with-images-and-shapes/brushstrokes/rings.md)
   * [Spirals](painting-with-images-and-shapes/brushstrokes/spirals.md)
   * [Bezier Curves](painting-with-images-and-shapes/brushstrokes/bezier-curves.md)
+  * [Quadratic Curves](painting-with-images-and-shapes/brushstrokes/quadratic-curves.md)
   * [Linear Splines](painting-with-images-and-shapes/brushstrokes/arbitrary-paths.md)
   * [Cubic Splines](painting-with-images-and-shapes/brushstrokes/cubic-splines.md)
   * [Points](painting-with-images-and-shapes/brushstrokes/points.md)
   * [Point Arrays](painting-with-images-and-shapes/brushstrokes/arrays-of-points.md)
-  * [SVG Paths](painting-with-images-and-shapes/brushstrokes/svg-paths.md)
   * [Font Glyphs](painting-with-images-and-shapes/brushstrokes/font-glyphs.md)
+  * [SVG Paths](painting-with-images-and-shapes/brushstrokes/svg-paths.md)
 
