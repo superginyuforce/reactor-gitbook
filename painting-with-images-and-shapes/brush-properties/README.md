@@ -24,7 +24,7 @@ The illustration above of the paintbrush painting a red spiky wave uses a triang
 
 Reactor comes with several brush types. Each one corresponds to a different kind of brush tip. For example, there is a brush type that paints with polygons, one that paints with images, etc. Each type inherits the base `Brush` class.
 
-#### [Polygon Brush](brush-types/polygon-brushes/)
+#### [Polygon Brush](brush-types/polygon-brushes.md)
 
 ![](../../.gitbook/assets/4d5f7a.png)
 
