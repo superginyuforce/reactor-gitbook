@@ -4,7 +4,7 @@ description: Stroke the outline of font glyphs
 
 # Font Glyphs
 
-Stroke the outline of font glyphs.
+Trace font glyphs vector paths.
 
 ![](../../.gitbook/assets/screenshot-from-2020-09-11-11-05-28.png)
 
