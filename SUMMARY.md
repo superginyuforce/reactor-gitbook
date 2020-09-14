@@ -49,7 +49,7 @@
     * [Ellipse Brush](painting-with-images-and-shapes/brush-properties/brush-types/ellipse-brush.md)
     * [Image Brush](painting-with-images-and-shapes/brush-properties/brush-types/image-brushes.md)
     * [Glyph Brush](painting-with-images-and-shapes/brush-properties/brush-types/glyph-brush.md)
-* [Brushstrokes](painting-with-images-and-shapes/brushstrokes/README.md)
+* [Strokes](painting-with-images-and-shapes/brushstrokes/README.md)
   * [Lines](painting-with-images-and-shapes/brushstrokes/lines.md)
   * [Bezier Curves](painting-with-images-and-shapes/brushstrokes/bezier-curves.md)
   * [Quadratic Curves](painting-with-images-and-shapes/brushstrokes/quadratic-curves.md)
