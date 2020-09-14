@@ -1,10 +1,8 @@
 ---
-description: Tracing SVG paths
+description: Stroke SVG paths
 ---
 
 # SVG Paths
-
-Trace an SVG path, i.e. the "d" value of a `<path d="M....">` SVG element.
 
 ![](../../.gitbook/assets/8fb86f.png)
 
@@ -26,6 +24,10 @@ Trace an SVG path, i.e. the "d" value of a `<path d="M....">` SVG element.
 
 {% hint style="info" %}
 Reactor is aware of path text files located in `svg/paths` directory. If you have a path file called "foo", then you'll be able to load this file at runtime via `reactor.svgManager.getPath("foo")`.
+{% endhint %}
+
+{% hint style="info" %}
+You can find SVG path strings in the `"d"` attribute of a `<path d="M....">` element.
 {% endhint %}
 
 ### Example

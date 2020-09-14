@@ -1,5 +1,5 @@
 ---
-description: Stroke the outline of font glyphs
+description: Stroke the font glyph paths
 ---
 
 # Font Glyphs

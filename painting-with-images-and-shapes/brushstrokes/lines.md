@@ -1,10 +1,8 @@
 ---
-description: Painting individual line segments
+description: Paint an individual line segment
 ---
 
 # Lines
-
-Stroke a straight line between start and end points.
 
 ![](../../.gitbook/assets/a02e10.png)
 

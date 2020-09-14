@@ -1,10 +1,8 @@
 ---
-description: Overview of spiral brushstrokes
+description: Paint spirals of various sizes and number of coils
 ---
 
 # Spirals
-
-Draw a spiral, according to its desired position, radius, and coils, i.e. number full rotations.
 
 ![](../../.gitbook/assets/776d02.png)
 

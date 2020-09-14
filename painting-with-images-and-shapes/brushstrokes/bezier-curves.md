@@ -1,10 +1,8 @@
 ---
-description: Stroking Bezier curves
+description: Paint a Bezier curve
 ---
 
 # Bezier Curves
-
-Draw a cubic Bezier curve between two points, using two control points.
 
 ![](../../.gitbook/assets/070f44.png)
 

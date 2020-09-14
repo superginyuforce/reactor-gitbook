@@ -1,10 +1,8 @@
 ---
-description: Overview of ring brushstrokes
+description: Paint the circumference of a circle
 ---
 
 # Rings
-
-Draw a ring with evenly spaced points along the circumference, regardless of brush density.
 
 ![](../../.gitbook/assets/b636ae.png)
 

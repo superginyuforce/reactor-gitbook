@@ -1,10 +1,8 @@
 ---
-description: Painting individual points
+description: Paint individual points
 ---
 
 # Points
-
-Dab the brush at a specific location.
 
 ![](../../.gitbook/assets/6167ae.png)
 

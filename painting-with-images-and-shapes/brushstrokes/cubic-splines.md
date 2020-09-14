@@ -1,10 +1,8 @@
 ---
-description: 'Stroking a continuous curve, made up of cubic polynomials'
+description: Connect the dots with a smooth curve
 ---
 
 # Cubic Splines
-
-Connect a sequence of points using cubic polynomials
 
 ![](../../.gitbook/assets/2dedab.png)
 

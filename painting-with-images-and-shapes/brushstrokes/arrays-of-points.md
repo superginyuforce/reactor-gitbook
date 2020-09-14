@@ -1,10 +1,8 @@
 ---
-description: Painting arrays of points
+description: Paint collections of points
 ---
 
 # Point Arrays
-
-Dab the brush at each point in a list of points.
 
 ![](../../.gitbook/assets/00e300.png)
 

@@ -1,10 +1,8 @@
 ---
-description: Stroking a continuous sequence of line segments
+description: Connect the dots with straight lines
 ---
 
 # Linear Splines
-
-Connect a sequence of points using lines, like a line graph.
 
 ![](../../.gitbook/assets/8605d3.png)
 
