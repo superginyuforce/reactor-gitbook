@@ -28,19 +28,19 @@ Reactor comes with several brush types. Each one corresponds to a different kind
 
 ![](../../.gitbook/assets/4d5f7a.png)
 
-#### [Ellipse Brush](brush-types/ellipse-brush/)
+#### [Ellipse Brush](brush-types/ellipse-brush.md)
 
 ![](../../.gitbook/assets/5c445b.png)
 
-#### [Line Brush](brush-types/line-brushes/)
+#### [Line Brush](brush-types/line-brushes.md)
 
 ![](../../.gitbook/assets/367115.png)
 
-#### [Image Brush](brush-types/image-brushes/)
+#### [Image Brush](brush-types/image-brushes.md)
 
 ![](../../.gitbook/assets/cbc954.png)
 
-#### [Glyph Brush](brush-types/glyph-brush/)
+#### [Glyph Brush](brush-types/glyph-brush.md)
 
 ![](../../.gitbook/assets/8aba6d.png)
 

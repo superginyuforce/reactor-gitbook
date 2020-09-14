@@ -1,5 +1,5 @@
 ---
-description: Universal brush parameters
+description: Understanding brush parameters
 ---
 
 # Parameters

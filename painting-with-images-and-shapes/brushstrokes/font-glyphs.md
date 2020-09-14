@@ -29,7 +29,7 @@ Reactor auto-loads fonts in the top-level `fonts` directory. If you have a font 
 {% endhint %}
 
 {% hint style="success" %}
-In addition to being able to paint glyphs, glyphs can be used as a brush tip with the [`GlyphBrush`](../brush-properties/brush-types/glyph-brush/) type.
+In addition to being able to paint glyphs, glyphs can be used as a brush tip with the [`GlyphBrush`](../brush-properties/brush-types/glyph-brush.md) type.
 {% endhint %}
 
 ### Example

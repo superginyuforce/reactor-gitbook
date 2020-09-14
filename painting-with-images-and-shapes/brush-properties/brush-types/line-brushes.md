@@ -1,0 +1,46 @@
+---
+description: Brushes that paint with lines
+---
+
+# Line Brush
+
+Line brushes let you paint with — you guessed it — lines! Like other brushes, line brushes have the ability to scale, rotate, reposition, colorize, and blend. Below are a handful of  examples that shows what's possible with very little code.
+
+### Gallery
+
+![](../../../.gitbook/assets/image%20%285%29.png)
+
+![](../../../.gitbook/assets/image%20%287%29.png)
+
+![](../../../.gitbook/assets/image%20%2814%29.png)
+
+![](../../../.gitbook/assets/image%20%283%29.png)
+
+![](../../../.gitbook/assets/image%20%281%29.png)
+
+![](../../../.gitbook/assets/image%20%286%29.png)
+
+### Basic Mechanics
+
+Here are some more primitive examples, manipulating only one or two parameters at a time.
+
+![](../../../.gitbook/assets/4a3650.jpeg)
+
+![](../../../.gitbook/assets/508758.png)
+
+![](../../../.gitbook/assets/275290%20%282%29.jpeg)
+
+![](../../../.gitbook/assets/f13716.jpeg)
+
+![](../../../.gitbook/assets/e06fd9.png)
+
+![](../../../.gitbook/assets/3904cf%20%282%29.jpeg)
+
+![](../../../.gitbook/assets/4c2d2c%20%281%29.jpeg)
+
+![](../../../.gitbook/assets/b48784.png)
+
+![](../../../.gitbook/assets/de8341%20%281%29.jpeg)
+
+![](../../../.gitbook/assets/658566.jpeg)
+
