@@ -25,11 +25,11 @@ description: Stroke font glyph paths
 | center | `Vector`, `Array`, `Object` | `[new Vector(x, y)]`, `[[x, y]]`, `[{x, y}]` |
 
 {% hint style="info" %}
-Reactor auto-loads fonts in the top-level `fonts` directory. If you have a font called `my-font.ttf`, then you can reference this font by name, like `"my-font"`.
+Reactor auto-loads fonts in the top-level `fonts` directory. If you have a font called `my-font.ttf`, for instance, then you can reference this font by the name, `"my-font"`.
 {% endhint %}
 
 {% hint style="success" %}
-In addition to being able to paint glyphs, glyphs can be used as a brush tip with the [`GlyphBrush`](../brush-properties/brush-types/glyph-brush.md) type.
+In addition to being able to stroke glyphs, glyphs can also be used as brush tips via the [`GlyphBrush`](../brush-properties/brush-types/glyph-brush.md) brush type.
 {% endhint %}
 
 ### Example
